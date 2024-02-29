@@ -1,0 +1,57 @@
+/*contoh selector eksternal */
+p{
+    color:darkmagenta;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12pt;
+}
+body{
+    /* background-color: aqua; */
+    background-image:url('../img/back.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+fieldset, legend{
+    border-width: 1px;
+    border-color:cornflowerblue;
+    border-radius:30px;
+}
+legend{
+    padding: 10px;
+    background-color:rgb(226, 188, 226);
+    color: azure;
+    font-weight: bold;
+    font-size: 14pt;
+}
+table{
+    border: 10px;
+    margin: auto;
+}
+td, th{
+    padding: 5px;
+    border: 1px solid white;
+}
+tr:hover{
+    background-color: purple;
+    color: burlywood;
+    font-size: 20pt;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+}
+/* contoh selector id dapat masuk ke semua tag */
+#paragraph {
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    color: purple;
+}
+ul, li, a.item:link, a.item:visited, a.item:active{
+    text-decoration: none; /*menghilangkan garis pada link */
+    list-style: none; /*menghilangkan titik pada list*/
+    display: block; /* mendisplay a sebagai block */
+    float: left; /*memposisikan a untuk bagian kiri */
+    padding: 2px 3px; /*memberi jarak dan membentuk persegi */
+    background-color: white; /*mewarnai block */
+}
+
